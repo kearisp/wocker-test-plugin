@@ -1,0 +1,22 @@
+{
+    "name": "@wocker/test-plugin",
+    "version": "1.0.1",
+    "author": "Kris Papercut <krispcut@gmail.com>",
+    "description": "Wocker test plugin",
+    "license": "MIT",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "prepare": "npm run build",
+        "watch": "tsc -w",
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "@wocker/core": "^1.0.1",
+        "stream": "^0.0.2"
+    },
+    "devDependencies": {
+        "typescript": "^5.2.2"
+    }
+}
