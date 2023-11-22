@@ -13,7 +13,7 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
-        "@wocker/core": "^1.0.1",
+        "@wocker/core": "^1.0.2",
         "stream": "^0.0.2"
     },
     "devDependencies": {
